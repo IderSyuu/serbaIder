@@ -1,0 +1,169 @@
+
+#slider {
+    padding-top: 6rem;
+}
+
+.row-kedua {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+
+.kolom-kedua {
+    /* background-color: cyan; */
+    box-shadow: 2px 5px 8px rgba(0,0,0,0.19), 0px -4px 16px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+.judul-kolom2 {
+    color: #0d6efd;
+}
+
+.joystick {
+    box-shadow: 14px 20px 8px rgba(0, 54, 134, 0.884);
+    transition: all .5s;
+    cursor: pointer;
+} .joystick:hover {
+    box-shadow: -14px -20px 8px rgba(47, 130, 255, 0.884)
+}
+.img-stick {
+    position: relative;
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.barisPertama {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.kolomPertama {
+    /* background-color: white; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    /* box-shadow: 3px 7px 9px rgba(0,0,0,0.2), 0px -5px 12px rgba(0,0,0,0.19) ; */
+}
+
+.icon_game {
+    width: 100px;
+    cursor: pointer;
+    margin: 0px 15px;
+    position: relative;
+    animation: ambang 3s infinite;
+}
+@keyframes ambang {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    80% {
+        transform: translateX(5px);
+    }
+    
+}
+
+.barisKedua {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.kolomKedua {
+    text-align: left;
+    /* border-right: 1px solid; */
+}
+
+.icon-game {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.kolomIcon {
+    text-align: center;
+}
+
+.kolomIcon:hover   {
+    background-color: white ;
+    color: black;
+    border-radius: 10px;
+}
+
+.img-bg {
+    box-shadow: 18px 20px 16px rgba(240, 255, 24, 0.678);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.img-bg:hover {
+    box-shadow: 100px 60px 20px rgba(229, 255, 0, 0.788);
+}
+
+
+@media (max-width:576px) {
+    .row-kedua {
+        justify-content: center;
+    }
+    .kolom-kedua {
+        padding: 8px;
+        font-size: 12px;
+        text-align: start;
+        /* color: #0d6efd  ; */
+    }
+    .title-topup {
+        font-size: 16px;
+    }
+    .title-hello {
+        font-size: 14px;
+    }
+    .title-kami {
+        font-size: 9px;
+    }
+    .barisPertama {
+        justify-content: center;
+    }
+    .judul-kolom2 {
+        font-size: 14px;
+    }
+    .icon_game {
+        width: 60px;
+        margin: 0px 7px;
+    }
+    .players {
+        font-size: 14px;
+    }
+    .teks-players {
+        font-size: 12px;
+    }
+    .icon-game {
+        width: 80px;
+    }
+    .teks-terakhir {
+        font-size: 14px;
+    }
+    .teks-akhir {
+        font-size: 11px;
+    }
+    .btn-terakhir {
+        width: 50px;
+        font-size: 11px;
+        /* padding: 3px; */
+    }
+}

@@ -1,0 +1,160 @@
+
+
+.jumbtron {
+    padding-top: 6rem;
+    /* background-image: url("image's/pemandangan-alam.jpg"); */
+    /* border-bottom: 2px solid grey; */
+    /* background-color: #ffc107; */
+}
+#project {
+    background-color: #ffc107;
+}
+
+#about {
+    margin-top: 50px;
+    box-shadow: 0px -4px 10px rgba(0,0,0,0.19);
+}
+
+
+.nav-item1 {
+    background-color: white;
+    padding: 5px 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* text-decoration: none; */
+}
+
+.teks {
+    font-weight: 600;
+}
+
+.teks2 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.container-flexbox {
+    /* width: 200px; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div-pertama, .div-kedua, .div-ketiga {
+    display: flex;
+    font-weight: 600;
+    margin-right: 25px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item1:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.item1 {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-item, .navbar-brand{
+    font-weight: 600;
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+#contact {
+    /* background-color: #e2edff; */
+    box-shadow: 0px -4px 8px rgba(0,0,0,0.19);
+}
+
+
+@media (max-width: 576px) {
+    .judul {
+        font-size: 14px;
+    }
+    .card-text {
+        font-size: 11px;
+        text-align: justify;
+    }
+    .kol1 {
+        width: 25%;
+    }
+
+    .teks2 {
+        width: 100px;
+        justify-content: center;
+        margin-bottom: 7px;
+    }
+
+    .div-pertama, .div-kedua, .div-ketiga {
+        margin-right: 10px;
+    }
+}
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.icon {
+    width: 150px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.card-color {
+    background-color: rgb(214, 214, 214);
+    border: 5px solid white;
+}
+
+.kolom-visi {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.19), 4px -5px 8px rgba(0,0,0,0.19);
+}
+
+.kolom-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#visi {
+    border-top: 2px solid grey ;
+}
+
+.cartoon {
+    animation: float 5s linear infinite;
+}
+@keyframes float {
+    50% {
+        transform: translateY(-20px) translateX(15px);
+    }
+    80% {
+        transform: translateY(-20px) translateX(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width:576px) {
+    .card-color {
+        margin: 10px;
+    }
+}
